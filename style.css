@@ -197,7 +197,7 @@ nav.open{
 
 .news-heading{
     padding: 0 0.9rem;
-    color: var(--WHITE);
+    color: var(--HEADER-COLOR);
     font-family: var(--FONT-F-BODY);
 }
 
