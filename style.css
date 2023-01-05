@@ -126,7 +126,8 @@ nav{
 
 nav ul{
     position: absolute;
-    background-color: black;
+    background-color: var(--FADE-BLACK);
+
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -266,7 +267,7 @@ nav.open{
 .priorities a, .priorities .text{
     color: var(--WHITE);
     text-shadow: 2px 2px 5px black;
-    text-decorator: none;
+    text-decoration: none;
 }
 
 .priority{
