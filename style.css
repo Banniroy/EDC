@@ -308,7 +308,7 @@ nav.open{
 }
 
 .program-container{
-    background-color: rgb(32, 31, 31);
+    background-color: var(--HEADER-COLOR);
     max-width: 93%;
     margin: 1.6rem auto;
     border-radius: 7px;
