@@ -5,7 +5,7 @@
     --WHITE: white;
     --BLUE: rgb(39, 69, 235);
     --RED: red;
-    --NEWS-EVENT-BG-COLOR: linear-gradient(to right, rgb(39, 69, 235),rebeccapurple );
+    --NEWS-EVENT-BG-COLOR: linear-gradient(to right, #50C878,white );
     --FADE-BLACK: #333; 
     --PROGRAM-BG-COLOR: linear-gradient(to right, #6e4c95, #dadaaa);
     --BLACK: black;
