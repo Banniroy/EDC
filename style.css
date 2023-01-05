@@ -215,6 +215,7 @@ nav.open{
 }
 
 .news{
+    border: 1px solid #014421;
     background-color: var(--WHITE);
     padding: 1rem;
     max-width: 93%;
