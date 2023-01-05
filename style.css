@@ -308,19 +308,23 @@ nav.open{
 }
 
 .program-container{
-    background-color: var(--HEADER-COLOR);
+    background-color: var(--WHITE);
+    border: 1px solid var(--HEADER-COLOR);
     max-width: 93%;
     margin: 1.6rem auto;
     border-radius: 7px;
     padding: 1rem;
 }
 
+.program-heading{
+    color: var(--BLACK);
+
 .program-container p{
     color: var(--WHITE);
 }
 
 .program-container a{
-    color: var(--WHITE);
+    color: var(--BLACK);
     text-decoration: none;
 }
 
