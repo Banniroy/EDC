@@ -202,7 +202,7 @@ nav.open{
 }
 
 .news-heading-2{
-    color: var(--BLACK);
+    color: var(--WHITE);
     padding-bottom: 0.5rem;
 }
 
@@ -238,7 +238,8 @@ nav.open{
 
 .more-news a{
     background-color: var(--WHITE);
-    color: var(--BLACK);
+    color: var(--HEADER-COLOR);
+    border: 1px solid var(--HEADER-COLOR);
     width: 35%;
     height: 30px;
     margin-left: 1rem;
