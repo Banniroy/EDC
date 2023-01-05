@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Italianno&family=Oswald&display=swap');
+
+:root{
+    --HEADER-COLOR: black;
+    --WHITE: white;
+    --BLUE: rgb(39, 69, 235);
+    --RED: red;
+    --NEWS-EVENT-BG-COLOR: linear-gradient(to right, rgb(39, 69, 235),rebeccapurple );
+    --FADE-BLACK: #333; 
+    --PROGRAM-BG-COLOR: linear-gradient(to right, #6e4c95, #dadaaa);
+    --BLACK: black;
+    --FOOTER-BG-COLOR: rgb(32, 31, 31);
+    --FONT-F-HEAD: 'Italianno', cursive;
+    --FONT-F-BODY: 'Oswald', sans-serif;
+    --FONT-F-HEADER: 'Fugaz One', cursive;
+    --FONT-TEXT: rgb(136, 135, 135);
+    --FONT-TEXT-2: rgb(88, 88, 88);
+    --DANGER: #FFC9B9;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+}
+
+header{
+    background-color: var(--HEADER-COLOR);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    text-shadow: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.addr{
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    font-family: var(--FONT-F-HEAD);
+}
+
+
+.header_title_line{
+    color: var(--WHITE);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0.25rem 1rem;
+    height: 9vh;
+}
+
+.menu-btn{
+    background-color: transparent;
+    border: none;
+    height: 38px;
+    width: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after{
+    background-color: var(--WHITE);
+    width: 20px;
+    height: 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-icon::before,
+.menu-icon::after{
+    content: "";
+    position: absolute;
+}
+
+.menu-icon::before{
+   transform: translateY(-8px);
+}
+
+.menu-icon::after{
+   transform: translateY(8px);
+}
+
+.menu-btn.open .menu-icon{
+    background: transparent;
+}
+
+.menu-btn.open .menu-icon::before{
+    background: var(--RED);
+    transform: rotate(45deg);
+}
+
+.menu-btn.open .menu-icon::after{
+    background: var(--RED);
+    transform: rotate(-45deg);
+}
+
+nav{
+    display: none;
+    position: relative;
+}
+
+nav ul{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+nav li{
+    padding: 0.7rem 0.5rem;
+    border-top: 1px solid var(--FONT-TEXT);
+}
+
+nav a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+nav a:any-link{
+    color: var(--WHITE);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    font-family: var(--FONT-F-BODY);
+}
+
+nav.open{
+    display: block;
+}
+
+.meeting{
+    background-image: url(../pics/02\ Vermont\ -\ Woodstock-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding-top: 2rem;
+    font-family: var(--FONT-F-BODY);
+}
+
+.meeting-header{
+    padding: 0.5rem 0;
+}
+
+.meeting-news{
+    background-color: var(--DANGER);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: 1rem;
+    font-family: var(--FONT-F-BODY);
+    transition: all 0.5s ease-in-out;
+}
+
+.meeting-news a{
+    color: var(--FONT-TEXT-2);
+    text-decoration: none;
+}
+
+.meeting-news:hover{
+    border: 4px solid rgb(165, 58, 58);
+}
+
+
+.news-event{
+    background-image: var(--NEWS-EVENT-BG-COLOR);
+    padding: 1.5rem 0;
+}
+
+.news-heading{
+    padding: 0 0.9rem;
+    color: var(--WHITE);
+    font-family: var(--FONT-F-BODY);
+}
+
+.news-heading-2{
+    color: var(--BLACK);
+    padding-bottom: 0.5rem;
+}
+
+.news-event .text{
+    color: var(--FONT-TEXT-2);
+}
+
+.date{
+    padding-bottom: 0.3rem;
+}
+
+.news{
+    background-color: var(--WHITE);
+    padding: 1rem;
+    max-width: 93%;
+    margin: 1.6rem auto;
+    border-radius: 7px;
+    font-family: var(--FONT-F-BODY);
+}
+
+.news:hover{
+    transition: all 0.5s ease-in-out;
+}
+
+.heading-3{
+    padding-bottom: 0.5rem;
+}
+
+.read-more{
+    text-decoration: none;
+}
+
+.more-news a{
+    background-color: var(--WHITE);
+    color: var(--BLACK);
+    width: 35%;
+    height: 30px;
+    margin-left: 1rem;
+    border-radius: 45px;
+    font-family: var(--FONT-F-BODY);
+    font-weight: bold;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.priorities{
+    font-family: var(--FONT-F-BODY);
+    padding: 1.5rem;
+    background-image: url(../pics/08\ Woodstock\ Inn_MainBuilding_Woodstock_Vermont_001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.priorities a, .priorities .text{
+    color: var(--WHITE);
+    text-shadow: 2px 2px 5px black;
+}
+
+.priority{
+    background-color: rgba(66, 66, 66, 0.719);
+    border: 1px solid var(--WHITE);
+    color: var(--WHITE);
+    border-radius: 4px;
+    margin: 1rem 0;
+    height: 90px;
+    padding: 1rem;
+    width: 150px;
+    text-align:left;
+
+}
+
+.priority-1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.priority-heading{
+    height: 35px;
+}
+
+.programs{
+    font-family: var(--FONT-F-BODY);
+    background-image: var(--NEWS-EVENT-BG-COLOR);
+}
+
+.programs p{
+    padding-top: 1rem;
+    color: var(--WHITE);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.programs .text{
+    color: var(--FONT-TEXT);
+}
+
+.program-container{
+    background-color: rgb(32, 31, 31);
+    max-width: 93%;
+    margin: 1.6rem auto;
+    border-radius: 7px;
+    padding: 1rem;
+}
+
+.program-container p{
+    color: var(--WHITE);
+}
+
+.program-container a{
+    color: var(--WHITE);
+    text-decoration: none;
+}
+
+footer{
+    font-family: var(--FONT-F-BODY);
+    background-color: var(--FOOTER-BG-COLOR);
+    color: var(--FONT-TEXT);
+    padding: 1rem 0;
+}
+
+.footer-heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-3{
+    width: 90%;
+    margin: 0 auto;
+}
