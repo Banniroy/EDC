@@ -42,6 +42,7 @@ header{
 h1{
     font-family: Arial, Helvetica, sans-serif, cursive;
     text-shadow: white;
+    font-size: clamp(1.75rem, 3vh, 2.25rem);
 }
 
 .hidden{
