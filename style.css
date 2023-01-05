@@ -41,7 +41,7 @@ header{
 
 h1{
     font-family: Arial, Helvetica, sans-serif, cursive;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px #333;
     font-size: 1.4rem;
     padding-top: 9px;
 }
