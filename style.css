@@ -70,11 +70,12 @@ header h1{
 }
 
 .log{
-    display:flex;
+    display: none;
+    /*display:flex;
     flex-flow: row nowrap;
     align-items: end;
     padding-bottom: 0.5rem;
-    gap: 0.5rem;
+    gap: 0.5rem;*/
 }
 
 .header_title_line{
