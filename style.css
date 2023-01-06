@@ -410,6 +410,7 @@ hr{
 .footer-3{
     width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px){
