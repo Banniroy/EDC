@@ -185,15 +185,12 @@ nav.open{
     font-family: var(--FONT-F-BODY);
 }
 
-.meeting p{
-    background-color: var(--WHITE);
-}
-
 .meeting-header{
     padding: 0.5rem 0;
 }
 
 .meeting-news{
+    background-color: var(--WHITE);
     border: 2px  solid var(--DANGER);
     outline: 2px solid var(--DANGER);
     outline-offset: -5px;
@@ -229,8 +226,11 @@ nav.open{
     font-family: var(--FONT-F-BODY);
 }
 
+.news .heading-3a{
+    color: var(--BLACK);
+}
+
 .news-heading-2{
-    color: var(--WHITE);
     padding-bottom: 0.5rem;
 }
 
