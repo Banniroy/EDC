@@ -354,6 +354,7 @@ nav.open{
 
 .programs-p{
     color: var(--HEADER-COLOR);
+}
 
 .programs .text{
     color: var(--FONT-TEXT);
