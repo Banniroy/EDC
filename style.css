@@ -186,7 +186,8 @@ nav.open{
 }
 
 .meeting p{
-     background-color: var(--WHITE);
+    background-color: var(--WHITE);
+}
 
 .meeting-header{
     padding: 0.5rem 0;
