@@ -352,6 +352,9 @@ nav.open{
     margin: 0 auto;
 }
 
+.programs-p{
+    color: var(--HEADER-COLOR);
+
 .programs .text{
     color: var(--FONT-TEXT);
 }
