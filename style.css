@@ -231,6 +231,7 @@ nav.open{
 }
 
 .news-heading-2{
+    color: var(--WHITE);
     padding-bottom: 0.5rem;
 }
 
