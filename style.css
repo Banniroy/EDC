@@ -185,6 +185,9 @@ nav.open{
     font-family: var(--FONT-F-BODY);
 }
 
+.meeting p{
+     background-color: var(--WHITE);
+
 .meeting-header{
     padding: 0.5rem 0;
 }
@@ -261,6 +264,7 @@ nav.open{
 
 .heading-3{
     padding-bottom: 0.5rem;
+    color: var(--BLACK);
 }
 
 .read-more{
