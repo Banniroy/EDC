@@ -72,7 +72,7 @@ header h1{
 .log{
     display:flex;
     flex-flow: row nowrap;
-    align-content: end;
+    align-items: end;
 }
 
 .header_title_line{
