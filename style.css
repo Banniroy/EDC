@@ -75,7 +75,7 @@ header h1{
 
     header{
         position: static;
-        height: 10vh;
+        height: 100px;
     }
 
     .addr{
@@ -125,7 +125,7 @@ header h1{
     flex-flow: row nowrap;
     justify-content: space-between;
     padding: 0.25rem 1rem;
-    height: 6vh;
+    height: 60px;
 }
 
 .menu-btn{
