@@ -185,7 +185,7 @@ header h1{
 }
 
 .nav-list{
-    display: non;
+    display: none;
     position: relative;
 }
 
