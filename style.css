@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Italianno&family=Oswald&display=swap');
 
 :root{
-    --HEADER-COLOR: #014421;
+    --HEADER-COLOR: #000;
     --WHITE: white;
     --BLUE: rgb(39, 69, 235);
     --RED: red;
@@ -61,6 +61,8 @@ header h1{
 
 .log-in{
     border: 1px solid var(--WHITE);
+    background-color: var(--WHITE);
+    border-radius: 50%;
     height: 38px;
     width: 38px;
 }
@@ -106,6 +108,8 @@ header h1{
 
     .logging-1{
         border: none;
+        background-color: var(--WHITE);
+        border-radius: 50%;
     }
 }
 
@@ -140,7 +144,6 @@ header h1{
     align-items: center;
     position: relative;
     cursor: pointer;
-    border: 1px solid var(--WHITE);
 }
 
 
@@ -182,7 +185,7 @@ header h1{
 }
 
 .nav-list{
-    display: none;
+    display: non;
     position: relative;
 }
 
@@ -208,6 +211,12 @@ header h1{
 
 .nav-png{
     padding-right: 1.5rem;
+    background-color: var(--WHITE);
+    display: flex;
+}
+
+.nav-png img{
+    
 }
 
 
