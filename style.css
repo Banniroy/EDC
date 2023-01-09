@@ -276,6 +276,8 @@ header h1{
     background-image: url(../pics/02\ Vermont\ -\ Woodstock-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width:1000px;
+    margin: 0 auto;
     height: 400px;
 }
 
@@ -283,8 +285,6 @@ header h1{
     height: 200px;
     padding-top: 2rem;
     font-family: var(--FONT-F-BODY);
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .meeting-header{
@@ -405,13 +405,13 @@ header h1{
     background-image: url(../pics/08\ Woodstock\ Inn_MainBuilding_Woodstock_Vermont_001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
 
 .news-heading-line-two{
     padding: 0 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .priorities a, .priorities .text{
