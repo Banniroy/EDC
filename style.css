@@ -289,7 +289,7 @@ header h1{
 }
 
 .meeting{
-    background-color: #E9EEEE;
+    background-color: var(--NEWS-EVENT-BG-COLOR);
     max-width:1000px;
     width: 100%;
     margin: 0 auto;
@@ -303,7 +303,7 @@ header h1{
 }
 
 .meeting-news{
-    background-color: var(--NEWS-EVENT-BG-COLOR);
+    background-color: var(--WHITE);
     border: 2px  solid var(--DANGER);
     outline: 2px solid var(--DANGER);
     outline-offset: -5px;
