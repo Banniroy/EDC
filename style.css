@@ -325,6 +325,9 @@ header h1{
 .news-event{
     background-color: var(--NEWS-EVENT-BG-COLOR);
     padding: 1.5rem 0;
+    max-width: 1000px;
+
+    margin: 0 auto;
 }
 
 .news-heading{
@@ -333,10 +336,7 @@ header h1{
     font-family: var(--FONT-F-BODY);
 }
 
-.news-heading-line-one{
-    max-width: 1000px;
-    margin: 0 auto;
-}
+
 
 .news .heading-3a{
     color: var(--BLACK);
