@@ -309,6 +309,7 @@ header h1{
     outline-offset: -5px;
     box-shadow: 3px 3px 10px var(--DANGER);
     width: 90%;
+    margin: 0 auto;
     border-radius: 7px;
     padding: 0.3rem 1rem 1rem 1rem;
     font-family: var(--FONT-F-BODY);
